@@ -16,5 +16,12 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+      
+
+        private void WorkOrders_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -44,5 +44,10 @@ namespace WindowsFormsApp1
             DescBox.Text = "";
 
         }
+
+        private void Parts_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

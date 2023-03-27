@@ -2,10 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Dapper;
-using System.Data.SqlClient;
 
 namespace WindowsFormsApp1
 {
@@ -30,6 +27,7 @@ namespace WindowsFormsApp1
                 HandleParts NewPart = new HandleParts();
                 NewPart.id = Int32.Parse(Id);
                 NewPart.creation_date = Convert.ToDateTime(Creation_date);
+                //NewPart.creation_date =  DateTime.Now;
                 NewPart.lang_code = Int32.Parse(LangCode);
                 NewPart.user_number = Int32.Parse(User_number);
                 NewPart.description = Description;
@@ -40,4 +38,5 @@ namespace WindowsFormsApp1
             }
         }
     }
+
 }

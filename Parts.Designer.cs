@@ -48,7 +48,7 @@
             // 
             // PartNames
             // 
-            this.PartNames.Location = new System.Drawing.Point(150, 17);
+            this.PartNames.Location = new System.Drawing.Point(154, 29);
             this.PartNames.Name = "PartNames";
             this.PartNames.Size = new System.Drawing.Size(228, 20);
             this.PartNames.TabIndex = 0;
@@ -56,7 +56,7 @@
             // PartNamesLabel
             // 
             this.PartNamesLabel.AutoSize = true;
-            this.PartNamesLabel.Location = new System.Drawing.Point(40, 24);
+            this.PartNamesLabel.Location = new System.Drawing.Point(44, 36);
             this.PartNamesLabel.Name = "PartNamesLabel";
             this.PartNamesLabel.Size = new System.Drawing.Size(82, 13);
             this.PartNamesLabel.TabIndex = 1;
@@ -64,7 +64,7 @@
             // 
             // SearchPartsButton
             // 
-            this.SearchPartsButton.Location = new System.Drawing.Point(150, 56);
+            this.SearchPartsButton.Location = new System.Drawing.Point(154, 68);
             this.SearchPartsButton.Name = "SearchPartsButton";
             this.SearchPartsButton.Size = new System.Drawing.Size(75, 23);
             this.SearchPartsButton.TabIndex = 2;
@@ -75,42 +75,42 @@
             // PartsBox
             // 
             this.PartsBox.FormattingEnabled = true;
-            this.PartsBox.Location = new System.Drawing.Point(150, 96);
+            this.PartsBox.Location = new System.Drawing.Point(154, 108);
             this.PartsBox.Name = "PartsBox";
             this.PartsBox.Size = new System.Drawing.Size(395, 95);
             this.PartsBox.TabIndex = 3;
             // 
             // IdBox
             // 
-            this.IdBox.Location = new System.Drawing.Point(150, 222);
+            this.IdBox.Location = new System.Drawing.Point(154, 234);
             this.IdBox.Name = "IdBox";
             this.IdBox.Size = new System.Drawing.Size(55, 20);
             this.IdBox.TabIndex = 4;
             // 
             // DateBox
             // 
-            this.DateBox.Location = new System.Drawing.Point(150, 248);
+            this.DateBox.Location = new System.Drawing.Point(154, 260);
             this.DateBox.Name = "DateBox";
             this.DateBox.Size = new System.Drawing.Size(106, 20);
             this.DateBox.TabIndex = 5;
             // 
             // UserNumBox
             // 
-            this.UserNumBox.Location = new System.Drawing.Point(150, 274);
+            this.UserNumBox.Location = new System.Drawing.Point(154, 286);
             this.UserNumBox.Name = "UserNumBox";
             this.UserNumBox.Size = new System.Drawing.Size(55, 20);
             this.UserNumBox.TabIndex = 6;
             // 
             // lnCdBox
             // 
-            this.lnCdBox.Location = new System.Drawing.Point(150, 304);
+            this.lnCdBox.Location = new System.Drawing.Point(154, 316);
             this.lnCdBox.Name = "lnCdBox";
             this.lnCdBox.Size = new System.Drawing.Size(55, 20);
             this.lnCdBox.TabIndex = 7;
             // 
             // DescBox
             // 
-            this.DescBox.Location = new System.Drawing.Point(150, 337);
+            this.DescBox.Location = new System.Drawing.Point(154, 349);
             this.DescBox.Name = "DescBox";
             this.DescBox.Size = new System.Drawing.Size(228, 20);
             this.DescBox.TabIndex = 8;
@@ -118,7 +118,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(58, 228);
+            this.label1.Location = new System.Drawing.Point(62, 240);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(16, 13);
             this.label1.TabIndex = 9;
@@ -127,7 +127,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(62, 255);
+            this.label2.Location = new System.Drawing.Point(66, 267);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 13);
             this.label2.TabIndex = 10;
@@ -136,7 +136,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(290, 251);
+            this.label3.Location = new System.Drawing.Point(294, 263);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(87, 13);
             this.label3.TabIndex = 11;
@@ -145,7 +145,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(62, 294);
+            this.label4.Location = new System.Drawing.Point(69, 293);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(69, 13);
             this.label4.TabIndex = 12;
@@ -154,7 +154,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(62, 311);
+            this.label5.Location = new System.Drawing.Point(66, 323);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(79, 13);
             this.label5.TabIndex = 13;
@@ -163,7 +163,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(62, 340);
+            this.label6.Location = new System.Drawing.Point(66, 352);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(60, 13);
             this.label6.TabIndex = 14;
@@ -171,7 +171,7 @@
             // 
             // InsertParts
             // 
-            this.InsertParts.Location = new System.Drawing.Point(150, 363);
+            this.InsertParts.Location = new System.Drawing.Point(154, 375);
             this.InsertParts.Name = "InsertParts";
             this.InsertParts.Size = new System.Drawing.Size(75, 23);
             this.InsertParts.TabIndex = 15;
@@ -202,6 +202,7 @@
             this.Controls.Add(this.PartNames);
             this.Name = "Parts";
             this.Size = new System.Drawing.Size(691, 411);
+            this.Load += new System.EventHandler(this.Parts_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

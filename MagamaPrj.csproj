@@ -50,7 +50,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataAccess.cs" />
+    <Compile Include="SearchMachines.cs" />
+    <Compile Include="HandleMachines.cs" />
     <Compile Include="HandleParts.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="Items.cs" />
@@ -74,6 +75,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchParts.cs" />
     <Compile Include="WorkOrders.cs">
       <SubType>UserControl</SubType>
     </Compile>
