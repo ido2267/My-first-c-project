@@ -1,0 +1,17 @@
+C:\Users\Lenovo\Documents\c#\Magma5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Lenovo\Documents\c#\Magma5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Lenovo\Documents\c#\Magma5\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Lenovo\Documents\c#\Magma5\WindowsFormsApp1\obj\Debug\MagamaPrj.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Documents\c#\Magma5\WindowsFormsApp1\obj\Debug\MagamaPrj.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Documents\c#\Magma5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Machines.resources
+C:\Users\Lenovo\Documents\c#\Magma5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Magma.resources
+C:\Users\Lenovo\Documents\c#\Magma5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Parts.resources
+C:\Users\Lenovo\Documents\c#\Magma5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Lenovo\Documents\c#\Magma5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.WorkOrders.resources
+C:\Users\Lenovo\Documents\c#\Magma5\WindowsFormsApp1\obj\Debug\MagamaPrj.csproj.GenerateResource.cache
+C:\Users\Lenovo\Documents\c#\Magma5\WindowsFormsApp1\obj\Debug\MagamaPrj.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\c#\Magma5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Lenovo\Documents\c#\Magma5\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Lenovo\Documents\c#\Magma5\WindowsFormsApp1\bin\Debug\Dapper.dll
+C:\Users\Lenovo\Documents\c#\Magma5\WindowsFormsApp1\bin\Debug\Dapper.xml
+C:\Users\Lenovo\Documents\c#\Magma5\WindowsFormsApp1\obj\Debug\MagamaPrj.csproj.CopyComplete
