@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magma3", "Magma3.csproj", "{636A7247-1D8D-4D0B-AF97-3EFC258A001F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{636A7247-1D8D-4D0B-AF97-3EFC258A001F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{636A7247-1D8D-4D0B-AF97-3EFC258A001F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{636A7247-1D8D-4D0B-AF97-3EFC258A001F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{636A7247-1D8D-4D0B-AF97-3EFC258A001F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BF9168D-38BC-4A24-A6EE-9C65212FA99F}
+	EndGlobalSection
+EndGlobal
