@@ -36,9 +36,8 @@ namespace WindowsFormsApp1
         {
             SearchParts db = new SearchParts();
 
-            db.InsertParts(IdBox.Text, DateBox.Text, UserNumBox.Text, lnCdBox.Text, DescBox.Text);
-            IdBox.Text = "";
-            DateBox.Text = "";
+            db.InsertParts( UserNumBox.Text, lnCdBox.Text, DescBox.Text);
+           
             UserNumBox.Text = "";
             lnCdBox.Text = "";
             DescBox.Text = "";

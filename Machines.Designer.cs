@@ -32,13 +32,10 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.NameBox = new System.Windows.Forms.TextBox();
             this.lnCdBox = new System.Windows.Forms.TextBox();
             this.UserNumBox = new System.Windows.Forms.TextBox();
-            this.DateBox = new System.Windows.Forms.TextBox();
             this.IdBox = new System.Windows.Forms.TextBox();
             this.MachinesBox = new System.Windows.Forms.ListBox();
             this.SearchMachinesButton = new System.Windows.Forms.Button();
@@ -48,7 +45,7 @@
             // 
             // InsertParts
             // 
-            this.InsertParts.Location = new System.Drawing.Point(219, 379);
+            this.InsertParts.Location = new System.Drawing.Point(219, 353);
             this.InsertParts.Name = "InsertParts";
             this.InsertParts.Size = new System.Drawing.Size(75, 23);
             this.InsertParts.TabIndex = 31;
@@ -59,7 +56,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(131, 356);
+            this.label6.Location = new System.Drawing.Point(131, 330);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(35, 13);
             this.label6.TabIndex = 30;
@@ -68,7 +65,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(131, 327);
+            this.label5.Location = new System.Drawing.Point(131, 301);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(79, 13);
             this.label5.TabIndex = 29;
@@ -77,29 +74,11 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(131, 297);
+            this.label4.Location = new System.Drawing.Point(131, 271);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(69, 13);
             this.label4.TabIndex = 28;
             this.label4.Text = "User Number";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(359, 267);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 13);
-            this.label3.TabIndex = 27;
-            this.label3.Text = "Month/Day?year";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(131, 271);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 13);
-            this.label2.TabIndex = 26;
-            this.label2.Text = "Creation Date";
             // 
             // label1
             // 
@@ -112,31 +91,24 @@
             // 
             // NameBox
             // 
-            this.NameBox.Location = new System.Drawing.Point(219, 353);
+            this.NameBox.Location = new System.Drawing.Point(219, 327);
             this.NameBox.Name = "NameBox";
             this.NameBox.Size = new System.Drawing.Size(228, 20);
             this.NameBox.TabIndex = 24;
             // 
             // lnCdBox
             // 
-            this.lnCdBox.Location = new System.Drawing.Point(219, 320);
+            this.lnCdBox.Location = new System.Drawing.Point(219, 294);
             this.lnCdBox.Name = "lnCdBox";
             this.lnCdBox.Size = new System.Drawing.Size(55, 20);
             this.lnCdBox.TabIndex = 23;
             // 
             // UserNumBox
             // 
-            this.UserNumBox.Location = new System.Drawing.Point(219, 290);
+            this.UserNumBox.Location = new System.Drawing.Point(219, 264);
             this.UserNumBox.Name = "UserNumBox";
             this.UserNumBox.Size = new System.Drawing.Size(55, 20);
             this.UserNumBox.TabIndex = 22;
-            // 
-            // DateBox
-            // 
-            this.DateBox.Location = new System.Drawing.Point(219, 264);
-            this.DateBox.Name = "DateBox";
-            this.DateBox.Size = new System.Drawing.Size(106, 20);
-            this.DateBox.TabIndex = 21;
             // 
             // IdBox
             // 
@@ -188,13 +160,10 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.NameBox);
             this.Controls.Add(this.lnCdBox);
             this.Controls.Add(this.UserNumBox);
-            this.Controls.Add(this.DateBox);
             this.Controls.Add(this.IdBox);
             this.Controls.Add(this.MachinesBox);
             this.Controls.Add(this.SearchMachinesButton);
@@ -214,13 +183,10 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox NameBox;
         private System.Windows.Forms.TextBox lnCdBox;
         private System.Windows.Forms.TextBox UserNumBox;
-        private System.Windows.Forms.TextBox DateBox;
         private System.Windows.Forms.TextBox IdBox;
         private System.Windows.Forms.ListBox MachinesBox;
         private System.Windows.Forms.Button SearchMachinesButton;

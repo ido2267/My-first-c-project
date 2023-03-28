@@ -55,6 +55,7 @@
             this.InsertParts.TabIndex = 47;
             this.InsertParts.Text = "Insert";
             this.InsertParts.UseVisualStyleBackColor = true;
+            this.InsertParts.Click += new System.EventHandler(this.InsertParts_Click);
             // 
             // label5
             // 
@@ -120,6 +121,7 @@
             this.SearcOrderButton.TabIndex = 34;
             this.SearcOrderButton.Text = "Search";
             this.SearcOrderButton.UseVisualStyleBackColor = true;
+            this.SearcOrderButton.Click += new System.EventHandler(this.SearcOrderButton_Click);
             // 
             // OrderLabel
             // 

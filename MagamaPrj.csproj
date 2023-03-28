@@ -50,6 +50,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InsertOrders.cs" />
+    <Compile Include="InsertMachines.cs" />
+    <Compile Include="HandleOrders.cs" />
+    <Compile Include="InsertParts.cs" />
     <Compile Include="SearchMachines.cs" />
     <Compile Include="HandleMachines.cs" />
     <Compile Include="HandleParts.cs" />
@@ -75,6 +79,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchOrders.cs" />
     <Compile Include="SearchParts.cs" />
     <Compile Include="WorkOrders.cs">
       <SubType>UserControl</SubType>

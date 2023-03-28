@@ -15,6 +15,10 @@ namespace WindowsFormsApp1
         public Magma()
         {
             InitializeComponent();
+            workOrders1.Hide();
+            machines1.Hide();
+            parts1.Show();
+            parts1.BringToFront();
         }
 
         private void PartsButton_Click(object sender, EventArgs e)

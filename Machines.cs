@@ -41,9 +41,8 @@ namespace WindowsFormsApp1
         {
             SearchMachines db = new SearchMachines();
 
-            db.InsertMachines(IdBox.Text, DateBox.Text, UserNumBox.Text, lnCdBox.Text, NameBox.Text);
-            IdBox.Text = "";
-            DateBox.Text = "";
+            db.InsertMachines( UserNumBox.Text, lnCdBox.Text, NameBox.Text);
+                       
             UserNumBox.Text = "";
             lnCdBox.Text = "";
             NameBox.Text = "";

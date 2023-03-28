@@ -17,7 +17,7 @@ namespace WindowsFormsApp1
         {
             get
             {
-                return $" {order_id}  {user_number} {lang_code} {creation_date} {part_id} {machine_id} {amount}";
+                return $" {order_id}  {user_number} {lang_code} {part_id} {machine_id} {amount}";
             }
         }
     }

@@ -22,21 +22,19 @@ namespace WindowsFormsApp1
 
         }
 
-        internal void InsertMachines(string Id, string Creation_date, string User_number, string LangCode, string Name)
+        internal void InsertMachines(  string User_number, string LangCode, string Name)
         {
 
             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.ConnValue("magma")))
             {
-                HandleMachines NewMachine = new HandleMachines();
-                NewMachine.id = Int32.Parse(Id);
-                //NewMachine.creation_date = Convert.ToDateTime(Creation_date);
-                NewMachine.creation_date = DateTime.Now;
+                InsertMachines NewMachine = new InsertMachines();
+               
                 NewMachine.lang_code = Int32.Parse(LangCode);
                 NewMachine.user_number = Int32.Parse(User_number);
                 NewMachine.name = Name;
-                List<HandleMachines> machines = new List<HandleMachines>();
+                List<InsertMachines> machines = new List<InsertMachines>();
                 machines.Add(NewMachine);
-                connection.Execute("dbo.Machines_Insert @id,@creation_date,@user_number,@lang_code,@name", machines);
+                connection.Execute("dbo.Machines_Insert @user_number,@lang_code,@name", machines);
 
             }
         }

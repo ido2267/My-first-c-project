@@ -15,7 +15,7 @@ namespace WindowsFormsApp1
         {
             get
             {
-                return $" {description} {id} {user_number} {lang_code} {creation_date} ";
+                return $" {description} {id} {user_number} {lang_code} ";
             }
         }
     }
