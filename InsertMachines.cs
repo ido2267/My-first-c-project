@@ -9,7 +9,7 @@ namespace WindowsFormsApp1
     internal class InsertMachines: Items
     {
        
-        public string name { get; set; }
+        public string machine_name { get; set; }
 
     
     }

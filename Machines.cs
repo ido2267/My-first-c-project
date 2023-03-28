@@ -12,7 +12,8 @@ namespace WindowsFormsApp1
 {
     public partial class Machines : UserControl
     {
-        List<HandleMachines> machines = new List<HandleMachines>();
+        //  List<HandleMachines> machines = new List<HandleMachines>();
+        List<DisplayMachines> machines = new List<DisplayMachines>();
         public Machines()
         {
             InitializeComponent();

@@ -31,10 +31,8 @@
             this.InsertParts = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.lnCdBox = new System.Windows.Forms.TextBox();
             this.UserNumBox = new System.Windows.Forms.TextBox();
-            this.IdBox = new System.Windows.Forms.TextBox();
             this.OrdersBox = new System.Windows.Forms.ListBox();
             this.SearcOrderButton = new System.Windows.Forms.Button();
             this.OrderLabel = new System.Windows.Forms.Label();
@@ -75,15 +73,6 @@
             this.label4.TabIndex = 44;
             this.label4.Text = "User Number";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(130, 244);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 13);
-            this.label1.TabIndex = 41;
-            this.label1.Text = "Order Id";
-            // 
             // lnCdBox
             // 
             this.lnCdBox.Location = new System.Drawing.Point(222, 306);
@@ -97,13 +86,6 @@
             this.UserNumBox.Name = "UserNumBox";
             this.UserNumBox.Size = new System.Drawing.Size(55, 20);
             this.UserNumBox.TabIndex = 38;
-            // 
-            // IdBox
-            // 
-            this.IdBox.Location = new System.Drawing.Point(222, 238);
-            this.IdBox.Name = "IdBox";
-            this.IdBox.Size = new System.Drawing.Size(55, 20);
-            this.IdBox.TabIndex = 36;
             // 
             // OrdersBox
             // 
@@ -201,10 +183,8 @@
             this.Controls.Add(this.InsertParts);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.lnCdBox);
             this.Controls.Add(this.UserNumBox);
-            this.Controls.Add(this.IdBox);
             this.Controls.Add(this.OrdersBox);
             this.Controls.Add(this.SearcOrderButton);
             this.Controls.Add(this.OrderLabel);
@@ -222,10 +202,8 @@
         private System.Windows.Forms.Button InsertParts;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox lnCdBox;
         private System.Windows.Forms.TextBox UserNumBox;
-        private System.Windows.Forms.TextBox IdBox;
         private System.Windows.Forms.ListBox OrdersBox;
         private System.Windows.Forms.Button SearcOrderButton;
         private System.Windows.Forms.Label OrderLabel;

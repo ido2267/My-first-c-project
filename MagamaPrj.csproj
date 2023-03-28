@@ -50,10 +50,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DisplayMachines.cs" />
+    <Compile Include="DiaplayParts.cs" />
+    <Compile Include="DisplayOrders.cs" />
     <Compile Include="InsertOrders.cs" />
     <Compile Include="InsertMachines.cs" />
     <Compile Include="HandleOrders.cs" />
     <Compile Include="InsertParts.cs" />
+    <Compile Include="DisplayItem.cs" />
     <Compile Include="SearchMachines.cs" />
     <Compile Include="HandleMachines.cs" />
     <Compile Include="HandleParts.cs" />

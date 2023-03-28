@@ -8,16 +8,24 @@ namespace WindowsFormsApp1
 {
     internal class SearchOrders
     {
-        public List<HandleOrders> GetOrders(string Order_id)
+        /*  public List<HandleOrders> GetOrders(string Order_id)
+         {
+             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.ConnValue("magma")))
+             {
+                 var output = connection.Query<HandleOrders>("DBO.Get_orderById @order_id", new { order_id = Order_id }).ToList();
+                 return output;
+             }
+
+         } */
+        public List<DisplayOrders> GetOrders(string Order_id)
         {
             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.ConnValue("magma")))
             {
-                var output = connection.Query<HandleOrders>("DBO.Get_orderById @order_id", new { order_id = Order_id }).ToList();
+                var output = connection.Query<DisplayOrders>("DBO.Get_orderById2 @order_id", new { order_id = Order_id }).ToList();
                 return output;
             }
 
         }
-
         internal void InsertOrders( string User_number, string LangCode,  string  Part_id, string Machine_id, string Amount )
         {
           

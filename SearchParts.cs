@@ -8,12 +8,12 @@ namespace WindowsFormsApp1
 {
     internal class SearchParts
     {
-        public List<HandleParts> GetParts(string Description)
+        public List<DisplayParts> GetParts(string Description)
         {
             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.ConnValue("magma")))
             {
                 //   var output =  connection.Query<HandleParts>($"select description,id,user_number,lang_code from Part where description = '{Description}' ").ToList();
-                var output = connection.Query<HandleParts>("DBO.Part_GetByDescription @description", new { description = Description }).ToList();
+                var output = connection.Query<DisplayParts>("DBO.Part_GetByDescription3 @description", new { description = Description }).ToList();
                 return output;
             }
 

@@ -12,7 +12,8 @@ namespace WindowsFormsApp1
 {
     public partial class WorkOrders : UserControl
     {
-        List<HandleOrders> Orders = new List<HandleOrders>();
+       // List<HandleOrders> Orders = new List<HandleOrders>();
+        List<DisplayOrders> Orders = new List<DisplayOrders>();
         public WorkOrders()
         {
             InitializeComponent();

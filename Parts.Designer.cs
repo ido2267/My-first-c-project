@@ -32,11 +32,9 @@
             this.PartNamesLabel = new System.Windows.Forms.Label();
             this.SearchPartsButton = new System.Windows.Forms.Button();
             this.PartsBox = new System.Windows.Forms.ListBox();
-            this.IdBox = new System.Windows.Forms.TextBox();
             this.UserNumBox = new System.Windows.Forms.TextBox();
             this.lnCdBox = new System.Windows.Forms.TextBox();
             this.DescBox = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -77,13 +75,6 @@
             this.PartsBox.Size = new System.Drawing.Size(395, 95);
             this.PartsBox.TabIndex = 3;
             // 
-            // IdBox
-            // 
-            this.IdBox.Location = new System.Drawing.Point(154, 234);
-            this.IdBox.Name = "IdBox";
-            this.IdBox.Size = new System.Drawing.Size(55, 20);
-            this.IdBox.TabIndex = 4;
-            // 
             // UserNumBox
             // 
             this.UserNumBox.Location = new System.Drawing.Point(154, 266);
@@ -104,15 +95,6 @@
             this.DescBox.Name = "DescBox";
             this.DescBox.Size = new System.Drawing.Size(228, 20);
             this.DescBox.TabIndex = 8;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(62, 240);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(16, 13);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Id";
             // 
             // label4
             // 
@@ -160,11 +142,9 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.DescBox);
             this.Controls.Add(this.lnCdBox);
             this.Controls.Add(this.UserNumBox);
-            this.Controls.Add(this.IdBox);
             this.Controls.Add(this.PartsBox);
             this.Controls.Add(this.SearchPartsButton);
             this.Controls.Add(this.PartNamesLabel);
@@ -183,11 +163,9 @@
         private System.Windows.Forms.Label PartNamesLabel;
         private System.Windows.Forms.Button SearchPartsButton;
         private System.Windows.Forms.ListBox PartsBox;
-        private System.Windows.Forms.TextBox IdBox;
         private System.Windows.Forms.TextBox UserNumBox;
         private System.Windows.Forms.TextBox lnCdBox;
         private System.Windows.Forms.TextBox DescBox;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;

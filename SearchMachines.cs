@@ -11,12 +11,12 @@ namespace WindowsFormsApp1
 {
     internal class SearchMachines
     {
-        public List<HandleMachines> GetMachines(string Name)
+        public List<DisplayMachines> GetMachines(string Name)
         {
             using (IDbConnection connection = new System.Data.SqlClient.SqlConnection(Helper.ConnValue("magma")))
             {
-                //   var output =  connection.Query<HandleMachines>($"select description,id,user_number,lang_code from Machine where description = '{Description}' ").ToList();
-                var output = connection.Query<HandleMachines>("DBO.Machine_GetByDescription @name", new { name = Name }).ToList();
+                 //  var output = connection.Query<HandleMachines>("DBO.Machine_GetByDescription2 @machine_name", new { machine_name = Name }).ToList();
+                var output = connection.Query<DisplayMachines>("DBO.Machine_GetByDescription2 @machine_name", new { machine_name = Name }).ToList();
                 return output;
             }
 
@@ -31,10 +31,10 @@ namespace WindowsFormsApp1
                
                 NewMachine.lang_code = Int32.Parse(LangCode);
                 NewMachine.user_number = Int32.Parse(User_number);
-                NewMachine.name = Name;
+                NewMachine.machine_name = Name;
                 List<InsertMachines> machines = new List<InsertMachines>();
                 machines.Add(NewMachine);
-                connection.Execute("dbo.Machines_Insert @user_number,@lang_code,@name", machines);
+                connection.Execute("dbo.Machines_Insert @user_number,@lang_code,@machine_name", machines);
 
             }
         }

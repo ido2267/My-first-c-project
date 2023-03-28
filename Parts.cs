@@ -12,7 +12,8 @@ namespace WindowsFormsApp1
 {
     public partial class Parts : UserControl
     {
-        List<HandleParts> parts = new List<HandleParts>();
+        // List<HandleParts> parts = new List<HandleParts>();
+        List<DisplayParts> parts = new List<DisplayParts>();
         public Parts()
         {
             InitializeComponent();
